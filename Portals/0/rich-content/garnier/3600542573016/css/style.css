@@ -104,45 +104,10 @@ body {
   text-decoration: line-through;
 }
 
-#es-garnier.es-garnier .es-kv__accent {
-  margin: 0;
-  padding: 0;
-  color: #e75e1c;
-  font-size: 40px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#es-garnier.es-garnier .es-kv__accent2 {
-  margin: 0;
-  padding: 0;
-  color: #e75e1c;
-  text-transform: uppercase;
-}
-
-#es-garnier.es-garnier .es-kv__accent2 span {
-  font-weight: 600;
-  font-size: 22px;
-}
-
 #es-garnier.es-garnier .es-kv__details {
   margin: 0;
   padding: 0;
   position: relative;
-}
-
-#es-garnier.es-garnier .es-kv__accent2::before,
-#es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(../img/square\ bracket\ open.png);
-  color: #e75e1c;
-  position: absolute;
-  top: 35%;
-  left: 0;
-}
-
-#es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(../img/square\ bracket\ close.png);
-  right: -200px;
 }
 
 @media screen and (min-width: 425px) {
@@ -1083,6 +1048,7 @@ body {
 
 #es-garnier.es-garnier .es-cross__slider {
   padding-top: 32px;
+  height: max-content;
 }
 
 #es-garnier.es-garnier .es-cross__wrapper {
